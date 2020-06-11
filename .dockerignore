@@ -1,0 +1,6 @@
+.Rhistory
+.gitignore
+*.tex
+*.Rproj
+*.bib
+Dockerfile
