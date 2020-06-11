@@ -4,3 +4,4 @@
 *.Rproj
 *.bib
 Dockerfile
+*.md
