@@ -20,3 +20,7 @@ RUN R -e "install.packages('ggplot2', dependencies=TRUE, repos='http://cran.rstu
 RUN R -e "install.packages('ranger', dependencies=TRUE, repos='http://cran.rstudio.com/')" 
 RUN R -e "devtools::install_github('giuseppec/featureImportance')"
 RUN R -e "install.packages('future.apply')"
+RUN R -e "install.packages('networkD3', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
+RUN R -e "install.packages('htmlwidgets', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
+RUN R -e "install.packages('webshot', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
+RUN R -e "webshot::install_phantomjs()" 
