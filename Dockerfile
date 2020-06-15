@@ -28,4 +28,5 @@ RUN R -e "install.packages('webshot', dependencies = TRUE, repos = 'http://cran.
 RUN R -e "install.packages('PMA', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
 RUN R -e "install.packages('kernlab', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
 RUN R -e "install.packages('batchtools', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
+RUN R -e "install.packages('xtable', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
 RUN R -e "webshot::install_phantomjs()" 
