@@ -26,4 +26,6 @@ RUN R -e "install.packages('networkD3', dependencies = TRUE, repos = 'http://cra
 RUN R -e "install.packages('htmlwidgets', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
 RUN R -e "install.packages('webshot', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
 RUN R -e "install.packages('PMA', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
+RUN R -e "install.packages('kernlab', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
+RUN R -e "install.packages('batchtools', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
 RUN R -e "webshot::install_phantomjs()" 
