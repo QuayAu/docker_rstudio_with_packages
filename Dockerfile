@@ -31,3 +31,4 @@ RUN R -e "install.packages('batchtools', dependencies = TRUE, repos = 'http://cr
 RUN R -e "install.packages('xtable', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
 RUN R -e "webshot::install_phantomjs()" 
 RUN R -e "devtools::install_github('ricardo-bion/ggradar')"
+RUN R -e "devtools::install_github("nickseedorff/totalvis")"
