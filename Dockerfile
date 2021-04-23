@@ -32,3 +32,13 @@ RUN R -e "install.packages('xtable', dependencies = TRUE, repos = 'http://cran.r
 RUN R -e "webshot::install_phantomjs()" 
 RUN R -e "devtools::install_github('ricardo-bion/ggradar')"
 RUN R -e "devtools::install_github("nickseedorff/totalvis")"
+RUN R -e "install.packages('gridExtra', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
+RUN R -e "install.packages('tidyr', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
+RUN R -e "install.packages('reshape2', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
+RUN R -e "install.packages('ggExtra', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
+RUN R -e "install.packages('BBmisc', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
+RUN R -e "install.packages('data.table', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
+RUN R -e "install.packages('stringi', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
+RUN R -e "install.packages('checkmate', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
+RUN R -e "install.packages('kernlab', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
+
