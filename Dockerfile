@@ -41,4 +41,4 @@ RUN R -e "install.packages('data.table', dependencies = TRUE, repos = 'http://cr
 RUN R -e "install.packages('stringi', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
 RUN R -e "install.packages('checkmate', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
 RUN R -e "install.packages('kernlab', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
-
+RUN R -e "install.packages('elasticnet', dependencies = TRUE, repos = 'http://cran.rstudio.com/')" 
